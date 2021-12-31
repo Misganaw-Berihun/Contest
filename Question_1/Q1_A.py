@@ -1,4 +1,10 @@
 # time: O(n^2)  space:O(1)
+#Question:         Generate the following patterns
+                  #         * 
+                  #       * * *
+                  #     * * * * * 
+                  #   * * * * * * * 
+
 def main():
     n = 5;
     for i in range(n):

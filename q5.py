@@ -1,5 +1,9 @@
 #Question : a) Given a number find its alphabetical representation 
+#                  Example:  Input: columnNumber = 28
+#                            Output: "AB"
 #Question : b) Given an alphabet find its numeric representation where
+#                  Example : Input: col = "AB"
+#                            Output: 28
 #                                    A -> 1
 #                                    B -> 2
 #                                    C -> 3

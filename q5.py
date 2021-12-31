@@ -11,7 +11,8 @@ def digToChar(num):
     while(num > 0):
         if num % 26 == 0:
             rem = 26
-            num = num // 26 #remove the next reaminder 
+            if(num == 26):
+                num = num // 26 #remove the next reaminder
         else:
             rem = num % 26
         ord_let = chr(rem + ord('A') - 1)#convert to alphabet

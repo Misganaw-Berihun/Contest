@@ -1,3 +1,8 @@
+#Quesiton: Generate the following pattern given h = 3
+#                    1                                                       
+#                  1 2 1                      
+#                1 2 3 2 1
+
 #time: o(n)  space: o(1)
 def main():
     h = 3;

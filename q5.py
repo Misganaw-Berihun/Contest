@@ -4,7 +4,7 @@
 #Question : b) Given an alphabet find its numeric representation
 #                  Example : Input: col = "AB"
 #                            Output: 28
-#                   where:           A -> 1
+#                   Given:           A -> 1
 #                                    B -> 2
 #                                    C -> 3
 #                                    ...

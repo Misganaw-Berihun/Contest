@@ -1,13 +1,13 @@
 #Question: generate the following pattern given N
-                    N = 2
-                    #  #
-                    #  #
-                    N = 3
-                    ## ## ##
-                    ## ## ##
-                    N = 4
-                    ### ### ### ###
-                    ### ### ### ###
+#                    N = 2
+#                    #  #
+#                    #  #
+#                    N = 3
+#                    ## ## ##
+#                    ## ## ##
+#                    N = 4
+#                    ### ### ### ###
+#                    ### ### ### ###
 
 #time: O(n^2) memory: o(1)
 def main():

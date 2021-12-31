@@ -1,3 +1,9 @@
+#Question: Generate the following patterns
+#                    *             *
+#                    * *         * *
+#                    * * *     * * *
+#                    * * * * * * * *
+
 #Time: O(n^2) Space: O(1)
 def main():
     n = 4

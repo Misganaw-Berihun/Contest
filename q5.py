@@ -1,3 +1,14 @@
+#Question : a) Given a number find its alphabetical representation 
+#Question : b) Given an alphabet find its numeric representation where
+#                                    A -> 1
+#                                    B -> 2
+#                                    C -> 3
+#                                    ...
+#                                    Z -> 26
+#                                    AA -> 27
+#                                    AB -> 28
+
+#Time: O(n) , Memory: O(1)
 def charToDig(let):
     sum = 0
     for i  in range(len(let)):
@@ -20,6 +31,7 @@ def digToChar(num):
         num = num//26
     return strg
 
+#Time: O(1)  , Memory: O(1)
 def main():
     print("Enter a digit or an alphabet:")
     let = input()

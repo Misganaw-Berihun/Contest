@@ -1,3 +1,11 @@
+#Question: Generate the following pattern given h = 3
+#                    ##  ##  ##
+#                      ##  ##
+#                    ##  ##  ##
+#                      ##  ##
+#                    ##  ##  ##
+
+#Time:O(n) memory: O(1)
 def main():
     h = 3
     for i in range(2*h - 1):
